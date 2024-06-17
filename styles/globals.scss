@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.house-card {
+    .swiper-pagination {
+        bottom: 30px !important;
+
+        &-bullet-active {
+            background: white !important;
+        }
+    }
+}
+
+.house-detail-slider {
+    .swiper-pagination {
+        bottom: 30px !important;
+
+        &-bullet-active {
+            background: white !important;
+        }
+    }
+}
